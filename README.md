@@ -17,7 +17,18 @@ https://github.com/ydhnwb/android-clean-architecture
   - product
   - register
 
-data 패키지(레이어)는 각 패키지 마다 remote, repository 패키지가 존재하고, Hilt 주입을 위한 Hilt Module이 존재한다.
+- presentation
+  - login
+  - main
+  - register
+
+data 패키지(레이어)는 remote, repository 패키지가 존재하고, Hilt 주입을 위한 Hilt Module Class가 존재한다.
+
+domain 패키지(레이어)는 entity, usecase 패키지가 존재하고, Datasource에 접근하는 Repository가 존재한다.
+
+presentation 패키지(레이어)는 login, main, register 패키지가 존재하고, Activity, Fragment, ViewModel 등 UI 컴포넌트와 Android Framework 관련된 코드를 포함한다.
+
+
 
 
 
@@ -29,4 +40,8 @@ data 패키지(레이어)는 각 패키지 마다 remote, repository 패키지�
 
 
 ## 분석하면서 공부한 것들
-1. 안드로이드 Clean Architecture
+1. [Android Clean Architecture](http://www.google.co.kr)
+
+
+
+## 분석 후 만든 앱✌️
