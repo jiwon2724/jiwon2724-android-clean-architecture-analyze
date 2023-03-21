@@ -4,7 +4,22 @@ https://github.com/ydhnwb/android-clean-architecture
 
 안드고님이 추천해주신 coroutine, hilt, flow를 사용한 프로젝트이다.
 
-위 기능들을 더 딥하게 공부하기에 좋은 앱인 것 같아 분석해보기로 했다!! -> 서버에러가 있어서 실행은 못한다 ㅠㅠ
+위 기능들을 더 딥하게 공부하기에 좋은 앱인 것 같아 분석해보기로 했다. -> 서버에러로 실행은 불가능하다.
+
+## 프로젝트 폴더 구조
+- data
+  - login
+  - product
+  - register
+  
+- domain
+  - login
+  - product
+  - register
+
+data 패키지(레이어)는 각 패키지 마다 remote, repository 패키지가 존재하고, Hilt 주입을 위한 Hilt Module이 존재한다.
+
+
 
 
 
@@ -14,3 +29,4 @@ https://github.com/ydhnwb/android-clean-architecture
 
 
 ## 분석하면서 공부한 것들
+1. 안드로이드 Clean Architecture
