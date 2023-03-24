@@ -36,6 +36,23 @@ presentation 패키지(레이어)는 login, main, register 패키지가 존재�
 
 ## 프로젝트를 분석하면서 나에게 적용하면 좋은 것과 길러야할 개발 습관 
 
+**1. Clean Architecture 구조 파악.**
+
+클린 아키텍처의 각 계층간 동작 이해하고, 관심사 분리 확실하게 하기.
+
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/70135188/227481409-8effe446-132d-45a9-b325-c7c50c953c05.png">
+
+
+**2. sealed class 사용해서 response 상태별로 관리하기.**
+```kotlin
+sealed class RegisterActivityState {
+    object Init : RegisterActivityState()
+    data class IsLoading(val isLoading: Boolean) : RegisterActivityState()
+    data class ShowToast(val message: String) : RegisterActivityState()
+    data class SuccessRegister(val registerEntity: RegisterEntity) : RegisterActivityState()
+    data class ErrorRegister(val rawResponse: WrappedResponse<RegisterResponse>) : RegisterActivityState()
+}
+```
 
 
 
