@@ -71,6 +71,8 @@ fun Context.showGenericAlertDialog(message: String){
 }
 ```
 
+**4. StateFlow, SharedFlow 상황에 맞게 사용하기**
+
 
 
 ## 분석하면서 공부한 것들
