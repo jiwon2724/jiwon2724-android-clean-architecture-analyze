@@ -55,6 +55,23 @@ sealed class RegisterActivityState {
 ```
 
 
+**3. Utils 클래스 만들어서 자주 사용되는 기능 확장함수로 관리하기.**
+```kotlin
+fun Context.showToast(message: String){
+    Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+}
+
+fun Context.showGenericAlertDialog(message: String){
+    AlertDialog.Builder(this).apply {
+        setMessage(message)
+        setPositiveButton(getString(R.string.button_text_ok)){ dialog, _ ->
+             dialog.dismiss()
+        }
+    }.show()
+}
+```
+
+
 
 ## 분석하면서 공부한 것들
 1. [Android Clean Architecture](http://www.google.co.kr)
