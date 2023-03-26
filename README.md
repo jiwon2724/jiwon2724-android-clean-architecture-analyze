@@ -36,14 +36,14 @@ presentation 패키지(레이어)는 login, main, register 패키지가 존재�
 
 ## 프로젝트를 분석하면서 나에게 적용하면 좋은 것과 길러야할 개발 습관 
 
-**1. Clean Architecture 구조 파악.**
+### **1. Clean Architecture 구조 파악.**
 
 클린 아키텍처의 각 계층간 동작 이해하고, 관심사 분리 확실하게 하기.
 
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/70135188/227481409-8effe446-132d-45a9-b325-c7c50c953c05.png">
 
 
-**2. sealed class 사용해서 response 상태별로 관리하기.**
+### **2. sealed class 사용해서 response 상태별로 관리하기.**
 ```kotlin
 sealed class RegisterActivityState {
     object Init : RegisterActivityState()
@@ -55,7 +55,7 @@ sealed class RegisterActivityState {
 ```
 
 
-**3. Utils 클래스 만들어서 자주 사용되는 기능 확장함수로 관리하기.**
+### **3. Utils 클래스 만들어서 자주 사용되는 기능 확장함수로 관리하기.**
 ```kotlin
 fun Context.showToast(message: String){
     Toast.makeText(this, message, Toast.LENGTH_LONG).show()
@@ -71,7 +71,13 @@ fun Context.showGenericAlertDialog(message: String){
 }
 ```
 
-**4. StateFlow, SharedFlow 상황에 맞게 사용하기**
+### **4. StateFlow, SharedFlow 상황에 맞게 사용하기**
+
+### **5. OkHttp 세부사항 적용하기**
+
+ex) connectTimeout, readTimeout 등
+
+### **6. 패키지 구조를 모듈화로 변경 적용**
 
 
 
