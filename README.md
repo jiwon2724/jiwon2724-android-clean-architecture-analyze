@@ -84,6 +84,7 @@ ex) connectTimeout, readTimeout 등
 ## 분석하면서 공부한 것들
 1. [Android Clean Architecture](https://spicy-spandex-e82.notion.site/Android-Clean-Architecture-8140b20e87ff42d6a694ddde445d0db5)
 2. [클린 아키텍처 모듈화](https://spicy-spandex-e82.notion.site/cef228509d7d45cfa5f79e316530c6f1)
+3. [Retrofit 사용시 알아두면 좋은 것 - 내부 동작](https://www.notion.so/dev-jiwon/Retrofit-d0823f1d96c14c3d96692fb4fe69e4d1)
 
 
 
