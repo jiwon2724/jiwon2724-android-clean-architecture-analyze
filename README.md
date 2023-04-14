@@ -43,7 +43,7 @@ presentation 패키지(레이어)는 login, main, register 패키지가 존재�
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/70135188/227481409-8effe446-132d-45a9-b325-c7c50c953c05.png">
 
 
-### **2. sealed class 사용해서 response 상태별로 관리하기.**
+### **2. sealed class 사용해서 UI State 관리하기.**
 ```kotlin
 sealed class RegisterActivityState {
     object Init : RegisterActivityState()
@@ -84,7 +84,7 @@ ex) connectTimeout, readTimeout 등
 ## 분석하면서 공부한 것들
 1. [Android Clean Architecture](https://spicy-spandex-e82.notion.site/Android-Clean-Architecture-8140b20e87ff42d6a694ddde445d0db5)
 2. [클린 아키텍처 모듈화](https://spicy-spandex-e82.notion.site/cef228509d7d45cfa5f79e316530c6f1)
-3. [Retrofit 사용시 알아두면 좋은 것 - 내부 동작](https://www.notion.so/dev-jiwon/Retrofit-d0823f1d96c14c3d96692fb4fe69e4d1)
+3. [Retrofit 사용시 알아두면 좋은 것](https://www.notion.so/dev-jiwon/Retrofit-d0823f1d96c14c3d96692fb4fe69e4d1)
 
 
 
