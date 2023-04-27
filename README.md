@@ -86,6 +86,7 @@ ex) connectTimeout, readTimeout 등
 2. [클린 아키텍처 모듈화](https://spicy-spandex-e82.notion.site/cef228509d7d45cfa5f79e316530c6f1)
 3. [Retrofit 사용시 알아두면 좋은 것](https://www.notion.so/dev-jiwon/Retrofit-d0823f1d96c14c3d96692fb4fe69e4d1)
 4. [StateFlow, SharedFlow](https://dev-jiwon.notion.site/StateFlow-SharedFlow-7e647be39a5d454b95fc0268be435b16)
+5. [안드로이드에서 StateFlow, SharedFlow 어떻게 사용해야할까?](https://dev-jiwon.notion.site/StateFlow-SharedFlow-7d70c879e6714fe9a081ac470d192d28)
 
 
 
