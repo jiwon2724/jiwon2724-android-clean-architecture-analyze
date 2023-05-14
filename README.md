@@ -38,7 +38,7 @@ presentation 패키지(레이어)는 login, main, register 패키지가 존재�
 
 ### **1. Clean Architecture 구조 파악.**
 
-클린 아키텍처의 각 계층간 동작 이해하고, 관심사 분리 확실하게 하기.
+클린 아키텍처의 각 계층간 동작 이해하고, 관심사 분리 확실하게 하기. -> 싱글모듈 패키지구조에서 멀티모듈로 바꿔보기.
 
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/70135188/227481409-8effe446-132d-45a9-b325-c7c50c953c05.png">
 
