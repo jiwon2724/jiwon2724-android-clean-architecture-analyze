@@ -1,4 +1,4 @@
-# android-clean-architecturea 레포지토리 분석하고 부족한점 채우기!
+# android-clean-architecturea 레포지토리 분석
 
 https://github.com/ydhnwb/android-clean-architecture
 
